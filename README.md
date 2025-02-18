@@ -207,7 +207,19 @@ public class ProductController {
     }
 }
 ```
-
+## 🚀 Testing the API
+### **Using Postman**
+1. **Open Postman** and create a new request.
+2. **Set the request type** (GET, POST, PUT, DELETE).
+3. **Enter the API URL**, e.g., `http://localhost:8080/api/products`.
+4. **For POST/PUT requests**, go to the **Body** tab and select **raw** → **JSON** format, then enter:
+   ```json
+   {
+     "name": "Laptop",
+     "price": 1200.50
+   }
+   ```
+5. **Click Send** and check the response.
 ---
 
 ## 🚀 Testing the API
